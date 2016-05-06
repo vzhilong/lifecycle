@@ -62,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.d("vincent", this.getClass().getSimpleName() + " onSaveInstanceState");
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         Log.d("vincent", this.getClass().getSimpleName() + " onPause");
