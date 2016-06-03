@@ -11,12 +11,12 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d("vincent", String.format("=== %s onCreate", this.getClass().getSimpleName()));
+        Log.d("stupid", String.format("=== %s onCreate", this.getClass().getSimpleName()));
     }
 
     @Override
     public void onTerminate() {
         super.onTerminate();
-        Log.d("vincent", String.format("=== %s onTerminate", this.getClass().getSimpleName()));
+        Log.d("stupid", String.format("=== %s onTerminate", this.getClass().getSimpleName()));
     }
 }

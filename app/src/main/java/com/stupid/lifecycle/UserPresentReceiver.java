@@ -12,7 +12,7 @@ public class UserPresentReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.d("vincent", String.format("+++ %s onReceive", this.getClass().getSimpleName()));
+        Log.d("stupid", String.format("+++ %s onReceive", this.getClass().getSimpleName()));
     }
 
 }

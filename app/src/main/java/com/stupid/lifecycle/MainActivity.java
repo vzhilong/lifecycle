@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("vincent", String.format("--- %s onCreate", this.getClass().getSimpleName()));
+        Log.d("stupid", String.format("--- %s onCreate", this.getClass().getSimpleName()));
 
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -46,48 +46,48 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("vincent", this.getClass().getSimpleName() + " onStart");
+        Log.d("stupid", this.getClass().getSimpleName() + " onStart");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d("vincent", this.getClass().getSimpleName() + " onRestart");
+        Log.d("stupid", this.getClass().getSimpleName() + " onRestart");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("vincent", this.getClass().getSimpleName() + " onResume");
+        Log.d("stupid", this.getClass().getSimpleName() + " onResume");
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        Log.d("vincent", this.getClass().getSimpleName() + " onSaveInstanceState");
+        Log.d("stupid", this.getClass().getSimpleName() + " onSaveInstanceState");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("vincent", this.getClass().getSimpleName() + " onPause");
+        Log.d("stupid", this.getClass().getSimpleName() + " onPause");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("vincent", this.getClass().getSimpleName() + " onStop");
+        Log.d("stupid", this.getClass().getSimpleName() + " onStop");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("vincent", String.format("--- %s onDestroy", this.getClass().getSimpleName()));
+        Log.d("stupid", String.format("--- %s onDestroy", this.getClass().getSimpleName()));
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Log.d("vincent", this.getClass().getSimpleName() + " onBackPressed");
+        Log.d("stupid", this.getClass().getSimpleName() + " onBackPressed");
     }
 }
